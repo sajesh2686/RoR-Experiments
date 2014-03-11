@@ -1,6 +1,6 @@
 Project::Application.routes.draw do
   devise_for :members
-
+  
   get "tom/login"
 
   # The priority is based upon order of creation:
